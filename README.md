@@ -99,9 +99,5 @@ SELECT user, host FROM mysql.user;
 ## 📌 Conclusion
 🚀 Ce projet permet de s'entraîner aux bases de **Java**, **JDBC** et **SQL** en manipulant des données MySQL.
 
-💡 **À venir** : Ajout d'une interface graphique pour améliorer l'interaction avec l'application !
 
----
-
-🛠 **Auteur** : Projet réalisé dans le cadre d'un exercice universitaire. 🎓
 
