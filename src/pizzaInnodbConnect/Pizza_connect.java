@@ -60,7 +60,7 @@ public class Pizza_connect {
             List<PizzaInfo> pizzaList = getPizzasFromDB(cn);
 
             // Affichage de toutes les pizzas avec leurs ingrédients
-            System.out.println("\n🍕 Liste des pizzas avec leurs ingrédients :");
+            System.out.println("\n Liste des pizzas avec leurs ingrédients :");
             for (PizzaInfo pizza : pizzaList) {
                 System.out.println(pizza);
             }
