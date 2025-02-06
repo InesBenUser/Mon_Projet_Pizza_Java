@@ -1,4 +1,4 @@
-# 🍕 Mon_Projet_Pizza_Java - Documentation
+# 🍕 Mon projet Pizza - Documentation
 
 ## 📌 Description
 Ce projet universitaire a pour objectif de s'entraîner aux bases des langages **Java** et **SQL** en développant une application de gestion de commandes de pizzas.
@@ -21,6 +21,14 @@ Le projet est organisé en plusieurs fichiers permettant son bon fonctionnement 
   - `quantite` : Quantité disponible
   - `ingredients` : Liste des ingrédients
 - Permet de structurer les données pour éviter la manipulation brute des résultats SQL.
+
+#### **Client.java & Client_connect.java**
+- `Client.java` : Définit un client avec ses attributs (nom, adresse, etc.).
+- `Client_connect.java` : Gère la connexion MySQL pour récupérer les clients depuis la base de données.
+
+#### **Livreur.java & Livreur_connect.java**
+- `Livreur.java` : Définit un livreur avec ses informations (nom, véhicule, etc.).
+- `Livreur_connect.java` : Gère la connexion MySQL pour récupérer les livreurs depuis la base de données.
 
 ---
 
@@ -76,6 +84,11 @@ Le projet est organisé en plusieurs fichiers permettant son bon fonctionnement 
   }
   ```
 
+### 🔹 **Gestion des clients et des livreurs**
+- **Récupération des clients** depuis la base via `Client_connect.java`.
+- **Récupération des livreurs** depuis la base via `Livreur_connect.java`.
+- Affichage des clients et des livreurs après récupération.
+
 ---
 
 ## ⚠️ Problèmes fréquents et solutions
@@ -98,6 +111,8 @@ SELECT user, host FROM mysql.user;
 
 ## 📌 Conclusion
 🚀 Ce projet permet de s'entraîner aux bases de **Java**, **JDBC** et **SQL** en manipulant des données MySQL.
+
+
 
 
 
